@@ -173,4 +173,3 @@ if __name__ == "__main__":
         except KeyboardInterrupt:
             print("\nShutting down.")
             machine_device.close()
-            #d,jbvndkjfbcvb,mcvb + 4
