@@ -4,7 +4,7 @@
  [ video ]
 
  # Try it yourself
- If you have a machine that can process G-code, connect it to your computer. While I use a custom-made 3D printed pen holder, it is not neccesary. You can just zip tie a pen onto the head like I originally did. Then run the file [`talk_to_plot.py`](./talk_to_plot.py) on your terminal or IDE. From there, simply follow the instructions and click enter to start. Since my plotter does not have a z-axis, the code does not include Z commands, which could cause issues on certain machines (This will be updated later to accomodate all types of machines)
+ If you have a machine that can process G-code, connect it to your computer. While I use a custom-made 3D printed pen holder, it is not neccesary. You can just zip tie a pen onto the head like I originally did. Then, run the file [`talk_to_plot.py`](./talk_to_plot.py) on your terminal or IDE. From there, simply follow the instructions and click enter to start. Since my plotter does not have a z-axis, the code does not include Z commands, which could cause issues on certain machines (This will be updated later to accomodate all types of machines)
 
  Dont have a plotter but want to see it in action for yourself? Here's me saying multiple different phrases:
 
@@ -15,7 +15,7 @@
 
  - The pen is held up by a 3D-printed pen holder made in Fusion 360. The holder uses the pens own weight to keep the pen stable, allowing for smooth and non-blotchy text.
 
- - Since my plotter does not have a z-axis, the pen will drag across the paper, causing streaks that ruin the writing. I have worked aroumd this by providing stop points for the user to lift up the pen and prevent these long lines from happening.
+ - Since my plotter does not have a z-axis, the pen will drag across the paper, causing streaks that ruin the writing. I have worked around this by providing stop points for the user to lift up the pen and prevent these long lines from happening.
 
  -  The user can easily change the size of the font by changing the [FONT_SIZE](https://github.com/Papas12213/speech-to-notes-plotter/blob/9c4db8eda4f29700cc667a0df30038a5cd3fbb04/talk_to_plot.py#L11), allowing for more words to be written. The only limitations are the dimensions of the machine.
 
@@ -31,6 +31,8 @@
 - An internet connection. Your words are turned into digital text by [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) and there are multiples different APIs available for it. I use Google's Web Speech API because of its high accuracy, but this requires an internet connection. Alternatively, you could use PocketSphinx (CMU Sphinx) which allows you to run the code offline, but it has a lower accuracy.
 
 - A machine that can run G-code, perferably one with with only a X and Y axis, but any will work. Additionally, a wired connection is perferred, but a bluetooth connection is included and works as well.
+
+- An attachment for a pencil. While I use this attachment, you could also just zip tie a pen onto the head of your machine.
 
 - A microphone is needed for your voice to be recorded and converted into text.
 
