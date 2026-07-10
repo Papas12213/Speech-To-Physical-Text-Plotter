@@ -3,7 +3,12 @@
  
  [ video ]
 
- Wanna see it for yourself? Here's me saying different phrases:
+ # Try it yourself
+ If you have a machine that can process G-code, connect it to your computer and run the file [`talk_to_plot.py`](./talk_to_plot.py) on your terminal or IDE. From there, simply follow the instructions and click enter to start.
+
+ Dont have a plotter but want to see it for yourself? Here's me saying multiple different phrases:
+
+ [ video ]
 
  # Features
  - Using [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) and [Hershey Fonts](https://pypi.org/project/Hershey-Fonts/), my code converts speech into mappable G-code. This G-code is then automatically sent to a plotter, allowing spoken words to be written down on a piece of paper.
@@ -11,4 +16,10 @@
  - Since my plotter does not have a z-axis, the pen will drag across the paper, causing streaks that ruin the writing. I have worked aroumd this by providing stop points for the user to lift up the pen and prevent these long lines from happening.
  -  The user can easily change the size of the font, allowing for more words to be written. The only limitation is the dimensions of the machine
  - The user has the ability to use whatever font they want (given that it is available in Hershey Fonts). I recommend using cursive as it has the least amount of lifting.
- - While I wrote the code based on my current plotter using only the x and y axis, the code works for any machine that can take G-code (CNCs, 3D printers, laser cutters, etc)
+ - While I wrote the code based on my current plotter using only the X and Y axis, the code works for any machine that can take G-code (CNCs, 3D printers, laser cutters, etc)
+
+# Requirements 
+- The entire code is written in Python. I currently use Python 3.13, but any version of Python 3 will work. You will also need to install the following libraries: Pyserial (imported as serial), HersheyFonts, PyAudio, and SpeechRecognition.
+- An internet connection. Your words are turned into digital text by [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) and there are multiples different APIs available for it. I use Google's Web Speech API because of its high accuracy, but this requires an internet connection. Alternatively, you could use PocketSphinx (CMU Sphinx) which allows you to run the code offline, but it has a lower accuracy.
+- a machine that can run G-code, perferably one with with only a X and Y axis, but any will work. Additionally, a wired connection is perferred, but a bluetooth connection is included and works as well.
+- A microphone is needed for your voice to be recorded and converted into text.
