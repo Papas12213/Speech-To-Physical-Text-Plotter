@@ -65,7 +65,7 @@ Print them yourself here:
 | Can hold many different pen sizes | The side screw either forces the pen to be too high or too low, making the writing barely visible or super blotchy |
 | Can easily keep pens stable and in place | When the plotter moves onto a new line, it's very impractical to untighten and tighten the side screw over and over |
 
-[Version 2](https://github.com/Papas12213/speech-to-notes-plotter/blob/41c343448cc80b1f622575fb384ad54f3a23ca1d/orthur%20laser%20pen%20attachement%20v2.stl): 
+[Version 2](https://github.com/Papas12213/speech-to-notes-plotter/blob/737272ae4f466bfb0897736766c5b10c5eabda79/pen%20holder%20V2.stl): 
   -  Second and current version, also designed in Fusion 360 and 3D printed. Features the same two top screws, but now has two holders to keep the pen straight. The pen is held down with its own weight, allowing it to write normally. I specifically designed this to work with thin Sharpies.
 
 | Pros | Cons |
