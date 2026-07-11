@@ -53,7 +53,7 @@ Since my plotter doesn't have a z-axis, I had to make a few workarounds. Since t
 Print them yourself here:
 | Version 1 | Version 2 |
 | --- | --- |
-| NA | NA |
+| [Here](https://www.printables.com/model/1778115-pen-holder-for-pen-plotter-v1) | [Here](https://www.printables.com/model/1778128-pen-holder-for-plotter-v2) |
 
  Unnoficial version:
    - Zip tie. My plotter has 2 holes on the head, so I wrapped a zip tie around these holes, stuck a pen inside, and tightened it as hard as I could. While it works, the pen was kind of hard to remove and would sometimes come lose.
