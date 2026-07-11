@@ -76,3 +76,15 @@ Print them yourself here:
 | --- | --- |
 | Holds thin Sharpies perfectly and allows for easy removal | Other big pens may not fit or may be too loose |
 | The pen doesnt blotch or make thin lines when writing | Again, this only happens with the thin Sharpies, limiting the pen type |
+
+# Materials 
+Plotter Materials: 
+   - The plotter is the ORTUR Laser Master Mini 15W. I removed the laser and mounted my pen holder instead. While I cannot find anything online as it has been discontinued, the laser cutter features:
+      1. Two servo motors, one for the x-axis and one for the y-axis, both powered by a USB type A cable.
+      2. A belt to move the head horizontally and vertically.
+      3. Two lightweight aluminum rods serving as the base for the plotter.
+      4. Three bearing wheels to assist the head when moving horizontally
+Pen holder materials:
+   - 3D printed used a red PLA filament.
+   - Two 3M screws, two washers, and two nuts, used for mounting the holder onto the plotter
+   - An ultrafine Sharpie
