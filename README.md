@@ -21,7 +21,7 @@
 
  -  The user can easily change the size of the font by changing the [FONT_SIZE](https://github.com/Papas12213/speech-to-notes-plotter/blob/9c4db8eda4f29700cc667a0df30038a5cd3fbb04/talk_to_plot.py#L11), allowing for more words to be written. The only limitations are the dimensions of the machine.
 
- - The user also has the ability to use whatever font they want, given that it is available in Hershey Fonts. I recommend using the cursive font as it has the least amount of lifting. A library containing all the fonts and how they look like is linked [here](https://github.com/soft9000)
+ - The user also has the ability to [change the font type](https://github.com/Papas12213/Voice-Script/blob/255546365fedb6e82c4f4873c6a6b2bb5de93fba/talk_to_plot.py#L76), given that it is available in Hershey Fonts. I recommend using the cursive font as it has the least amount of lifting. A library containing all the fonts and how they look like is linked [here](https://github.com/soft9000/PyHershey)
 
  - While I wrote the code based on my current plotter using only the X and Y axes, the code should work for any machine that can take G-code (CNCs, 3D printers, laser cutters, etc.)
 
