@@ -12,7 +12,7 @@ FONT_SIZE = 14.0 # size of the text
 START_X = 0.0 #Where Machine moves to when first starting
 START_Y = 130.0 #Where machine moves to (Starts at the very top)
 
-def auto_discover_grbl_port():
+def discover_port():
     print("Looking for machine...")
     patterns = [
         '/dev/cu.usbserial*', '/dev/cu.usbmodem*', '/dev/cu.wchusbserial*', 
@@ -28,7 +28,7 @@ def auto_discover_grbl_port():
     return None
 
 def initialize_machine():
-    port_path = auto_discover_grbl_port()
+    port_path = discover_port()
     
     if not port_path:
         print("\n[!] No USB detected hardware detected.")
@@ -69,7 +69,7 @@ def send_gcode_line(dev, command):
                 return False
         time.sleep(0.005)
 
-def speech_text_to_grbl_gcode(text):
+def speech_to_gcode(text):
     gcode_commands = ["G21", "G90"]
     
     font = HersheyFonts.HersheyFonts()
@@ -138,7 +138,7 @@ def listen_and_write(dev):
             time.sleep(1.0)
             input("\nPut the pen in now. [Press Enter to confirm and begin drawing]")
             
-            commands = speech_text_to_grbl_gcode(text)
+            commands = speech_to_gcode(text)
             
             print(f"Sending code ({len(commands)} actions) to machine...")
             for cmd in commands:
