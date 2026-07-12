@@ -20,8 +20,6 @@
 [I love my cat](https://youtu.be/IWMQLqXhyNM)
 [I love San Francisco](https://youtu.be/gVoCUxS2Upw)
 [What other phrases should I say](https://youtu.be/WT3sv21QGg4)
- 
- [ video ]
 
  # Features
  > Note: I use a old ORTUR laser cutter that doesn't have a laser anymore as my plotter.
