@@ -100,3 +100,10 @@ Print them yourself here:
    - 3D printed used a red PLA filament.
    - Two 3M screws, two washers, and two nuts, used for mounting the holder onto the plotter
    - An ultrafine Sharpie
+   - 
+  # Future plans
+  I have many ideas to build upon and things to add to this project. I will list them below:
+  1. Move my code over to a Raspberry Pi to make the project more accesible. This will also allow me to keep the plotter as one device and remove the need for a computer.
+  2. Add z-coordinates to my code to make it compatible with any machine that takes g-code
+  3. Install and add a working z-axis to my plotter. My current idea is to use a servo motor to move the pen up and down.
+  4. Add the ability to draw. By telling the plotter "draw", it will create an image, turn it into G-code, and draw it. A z-axis is needed for this and I assume AI will be needed too to create the image.
